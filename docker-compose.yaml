@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  service_register:
+    container_name: "register"
+    image: consul:latest
+    ports:
+      - "8500:8500"
